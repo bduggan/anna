@@ -11,7 +11,7 @@ Try to keep up with people in society
 # Notes
 
 If there are too many characters and you can't keep up,
-improve the maximum number threads:
+increase the maximum number threads:
 
 ```
 RAKUDO_MAX_THREADS=200 ./anna
