@@ -1,0 +1,14 @@
+#!/usr/bin/env perl6
+
+use lib '.';
+
+# see https://github.com/rakudo/rakudo/issues/3172
+use Terminal::Print::BoxDrawing;
+class Z does Terminal::Print::BoxDrawing { }
+
+use rogue;
+
+sub MAIN(Bool :$fast) {
+  rogue.new.run(:$fast);
+}
+
