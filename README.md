@@ -5,7 +5,7 @@ Try to keep up with people in society
 # Quick start
 
 1. Install Perl 6 and zef
-2. zef install Terminal::Print
+2. `zef install Terminal::Print`
 3. `./anna`
 
 # Notes
